@@ -1,0 +1,1 @@
+ALTER TABLE offers ALTER COLUMN price TYPE REAL USING price::REAL;
