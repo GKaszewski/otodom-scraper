@@ -50,10 +50,6 @@ async fn serve_index() -> Result<Html<String>, StatusCode> {
     Ok(Html(contents))
 }
 
-async fn handler() -> &'static str {
-    "Hello, World!"
-}
-
 async fn health_check() -> &'static str {
     "OK"
 }
